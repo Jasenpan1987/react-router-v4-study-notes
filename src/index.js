@@ -8,9 +8,10 @@ import UrlParamExample from "./examples/2.urlParams";
 import AuthExample from "./examples/3.authExample";
 import CustomLink from "./examples/4.customLinkExample";
 import PromptExample from "./examples/5.promptExample";
-import NoMatchExample from "./examples/6.nomatchExample.js";
+import NoMatchExample from "./examples/6.nomatchExample";
+import RecursiveExample from "./examples/7.recursiveExample";
 
 ReactDOM.render(
-  <NoMatchExample />,
+  <RecursiveExample />,
   document.getElementById('root')
 );
