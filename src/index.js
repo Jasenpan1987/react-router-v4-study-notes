@@ -10,8 +10,11 @@ import CustomLink from "./examples/4.customLinkExample";
 import PromptExample from "./examples/5.promptExample";
 import NoMatchExample from "./examples/6.nomatchExample";
 import RecursiveExample from "./examples/7.recursiveExample";
+import SideBarExample from "./examples/8.sidebarExample";
+import AnimationExample from "./examples/9.animationExample";
+import AmbiguousExample from "./examples/10.ambiguousExample";
 
 ReactDOM.render(
-  <RecursiveExample />,
+  <AmbiguousExample />,
   document.getElementById('root')
 );
